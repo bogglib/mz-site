@@ -1,0 +1,136 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navbar-nav li 	a{
+		padding: 10px 20px;
+	}
+	.navbar-nav li a:hover{
+		padding: 10px 20px;
+	}
+	.navbar-form .form-control	{
+		width: 150px
+	}
+	.navbar-collapse{
+		background-image: linear-gradient(rgb(93, 107, 110), rgb(48, 55, 57))
+	}
+	.navbar-collapse .navbar-nav li a{
+		color: #fff
+	}
+				
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.navbar-collapse{
+		float: right;
+		padding: 0 15px ;
+		text-align: center;
+		opacity: 0.9;
+	}
+	.navbar-collapse li{
+		padding: 0;
+		border: none;
+	}
+	.navbar-collapse li a{
+		border-right: none;
+		border-bottom: 1px solid rgba(230, 230, 230, 0.65);
+	}
+	.form-group {
+		float: left;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
+	.navbar-form{
+		border: none;
+	}
+	.form-group{
+		padding-right: 4px;
+	}
+	.navbar{
+		position: absolute;
+		z-index: 10;
+		right: 10px;
+		top: 104px;
+	}
+	.form-control {
+		max-width: 100px;
+	}
+	.cart{
+		padding-top: 20px
+	}
+	.header-top{
+	    padding: 0 0 20px 0;
+	}
+	.right-menu .nav-pills li{
+		margin: 0 10px;
+	}
+	.right-menu .nav-pills li:first-child{
+		 padding-left: 0;
+	}
+	.nav-pills li:last-child{
+			margin: 0;
+			padding: 10px 0;
+		}
+	.main .mobile{
+		text-align: center;
+	}
+	.main .mobile a p{
+		text-align: center;
+		padding: 10px;
+		margin: 0;
+		max-width: 100%
+
+	}
+	.main .mobile a img{
+		position: relative;
+		right: 0;
+	}
+	.panel-body{
+		padding: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

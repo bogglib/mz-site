@@ -22,7 +22,23 @@
 	.navbar-collapse .navbar-nav li a{
 		color: #fff
 	}
-				
+	.product-item .product-img .other-img{
+		float: right;
+		width: 30%;
+	}
+	.main .product-item .product-img .other-img img{
+		width: auto;
+		max-height: 100px;
+		padding-bottom: 15px;
+	}
+	.main .product-item .product-img .main-img {
+		display: inline-block;
+		width: 70%;
+		height: auto;
+	}
+	.main .product-item .description-item h3{
+		text-align: center;
+	}
 }
 
 /* Small Devices, Tablets */

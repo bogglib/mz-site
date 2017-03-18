@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=500px, initial-scale=1">
     <title>mz</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -71,7 +73,6 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Whats New </a></li>
-        <li><a href="#">Specials</a></li>
         <li><a href="#">My Account</a></li>
         <li><a href="#">Contacts</a></li>
       </ul>
@@ -91,7 +92,7 @@
 <div class="main">
 	<div class="container">
 		<div class="row">
-		<sidebar class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+		<sidebar class="col-lg-4 col-md-4 col-sm-4 col-xs-5">
 			    <div class="panel-menu-wrap">
 			    	<button class="show-menu btn btn-default">
 			    		<span class="glyphicon glyphicon-menu-right"></span> Categories
@@ -130,49 +131,53 @@
 				</a>
 			</div>
 		</sidebar>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-				<div class="row product-wrap " style="display:none">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-7">
+				<div class="row product-wrap">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title">
 						<h3>Featured <span>Products</span></h3>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
-						<div class="prod-img">
-							<a href="#"><img src="img/img-1.jpg" alt="img-1"></a>
-						</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-footer">
 							<h5><a href="#">HTC Google Nexus One Black</a></h5>
 						</div>
 						<span class="price">$206.99</span>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
 						<div class="prod-img">
-							<a href="#"><img src="img/img-2.jpg" alt="img-1"></a>
+							<a href="#"><img src="img/img-1.jpg" alt="img-1"></a>
 						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-footer">
 							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
 						</div>
 						<span class="price">$179.99</span>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
 						<div class="prod-img">
-							<a href="#"><img src="img/img-3.jpg" alt="img-1"></a>
+							<a href="#"><img src="img/img-2.jpg" alt="img-1"></a>
 						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-footer">
 							<h5><a href="#">Home Theater System </a></h5>
 						</div>
 						<span class="price">$241.79</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-3.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
+						<div class="prod-footer">
+							<h5><a href="#">Home Projector System</a></h5>
+						</div>
+						<span class="price">$499.99</span>
 						<div class="prod-img">
 							<a href="#"><img src="img/img-4.jpg" alt="img-1"></a>
 						</div>
-						<div class="prod-footer">
-							<h5><a href="#">Home Projector System $499.99</a></h5>
-						</div>
-						<span class="price">$499.99</span>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
 
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
 							<a href="#"><img src="img/img-5.jpg" alt="img-1"></a>
 						</div>
@@ -181,7 +186,7 @@
 						</div>
 						<span class="price">$406.99</span>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
 							<a href="#"><img src="img/img-6.jpg" alt="img-1"></a>
 						</div>
@@ -190,7 +195,7 @@
 						</div>
 						<span class="price">$757.89</span>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
 							<a href="#"><img src="img/img-7.jpg" alt="img-1"></a>
 						</div>
@@ -199,7 +204,7 @@
 						</div>
 						<span class="price">$800.00</span>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
 							<a href="#"><img src="img/img-8.jpg" alt="img-1"></a>
 						</div>
@@ -238,6 +243,131 @@
 						</div>
 					</div>
 				</div>
+				<div class="row contacts">
+					<h2>Контакты</h2>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 cont-info">
+						<h3>Call-center</h3>
+						<ul>
+							<li>+38 (044) 364-11-33</li>
+							<li>+38 (044) 364-11-33</li>
+							<li>+38 (044) 364-11-33</li>
+							<li>+38 (044) 364-11-33</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 cont-info">
+						<h3>График работы Call-центра</h3>
+						<ul>
+							<li>Пн.–Пт.: с 09:00 до 21:00</li>
+							<li>Сб.: с 09:00 до 20:00</li>
+							<li>Вс.: с 09:00 до 19:00</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 cont-info">
+						<h3>Электронная почта</h3>
+						<ul>
+							<li><a href="#">info@stylus.com.ua</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel owl-theme">
+				    <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Home Projector System</a></h5>
+						</div>
+						<span class="price">$499.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-4.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
+						</div>
+						<span class="price">$179.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-2.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+				     	<div class="prod-footer">
+							<h5><a href="#">BluRay Home System</a></h5>
+						</div>
+						<span class="price">$406.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-5.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				      <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Home Projector System</a></h5>
+						</div>
+						<span class="price">$499.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-4.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
+						</div>
+						<span class="price">$179.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-2.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+				     	<div class="prod-footer">
+							<h5><a href="#">BluRay Home System</a></h5>
+						</div>
+						<span class="price">$406.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-5.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				      <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Home Projector System</a></h5>
+						</div>
+						<span class="price">$499.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-4.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+						<div class="prod-footer">
+							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
+						</div>
+						<span class="price">$179.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-2.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
+				     <div class="item product">
+				     	<div class="prod-footer">
+							<h5><a href="#">BluRay Home System</a></h5>
+						</div>
+						<span class="price">$406.99</span>
+						<div class="prod-img">
+							<a href="#"><img src="img/img-5.jpg" alt="img-1"></a>
+						</div>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
+				    </div>
 			</div>
 		</div>
 	</div>
@@ -248,5 +378,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/show-menu.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+	<script src="js/js.js"></script>
   </body>
 </html>

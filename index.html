@@ -92,7 +92,7 @@
 <div class="main">
 	<div class="container">
 		<div class="row">
-		<sidebar class="col-lg-4 col-md-4 col-sm-4 col-xs-5">
+		<sidebar class="col-lg-3 col-md-4 col-sm-4 col-xs-5">
 			    <div class="panel-menu-wrap">
 			    	<button class="show-menu btn btn-default">
 			    		<span class="glyphicon glyphicon-menu-right"></span> Categories
@@ -124,15 +124,14 @@
                   <li><span class="glyphicon glyphicon-menu-right"></span><a href="#"> House wears</a></li>
                     </ul>
 			</div>
-			<div class="mobile">
-				<a href="#">
-				<p>HTC Google Nexus One <span>$206.99</span></p>
-				<img src="img/mobile.png" alt="mobile">
-				</a>
+			<div class="shares">	
+				<h2>Special proposition! -50%</h2>
+				<a href="#"><img src="img/mobile.png" alt="mobile"></a>
+				<p>HTC Google Nexus One<span>$206.99</span></p>
 			</div>
 		</sidebar>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-7">
-				<div class="row product-wrap">
+			<div class="col-lg-9 col-md-8 col-sm-8 col-xs-7">
+				<div class="row product-wrap" style="display:none">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title">
 						<h3>Featured <span>Products</span></h3>
 					</div>
@@ -185,6 +184,7 @@
 							<h5><a href="#">BluRay Home System</a></h5>
 						</div>
 						<span class="price">$406.99</span>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
@@ -194,6 +194,7 @@
 							<h5><a href="#">HP Pavilion A6700F Desktop PC </a></h5>
 						</div>
 						<span class="price">$757.89</span>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
@@ -203,6 +204,7 @@
 							<h5><a href="#">Epson WorkForce 600 Wireless</a></h5>
 						</div>
 						<span class="price">$800.00</span>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
 						<div class="prod-img">
@@ -212,12 +214,13 @@
 							<h5><a href="#">Samsung LN40A550 40-Inch 1080p LCD</a></h5>
 						</div>
 						<span class="price">$599.99</span>
+						<button class="btn btn-info"><a href="#">More from category</a></button>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-view-more">
 						<button class="btn btn-info pull-right">View More Products</button>
 					</div> 
 				</div>
-				<div class="row product-item">
+				<div class="row product-item" style="display:none">
 					<div class="product-img col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="main-img">
 							<img src="img/prod-img-1.jpg" alt="prod-img-1.jpg">
@@ -243,7 +246,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row contacts">
+				<div class="row contacts" style="display:none">
 					<h2>Контакты</h2>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 cont-info">
 						<h3>Call-center</h3>
@@ -269,6 +272,60 @@
 						</ul>
 					</div>
 				</div>
+
+				<div class="cart-list-table" style="">
+					<table >
+						<tbody>
+							<tr>
+								<th colspan="3">Товар</th>
+								<th style="width:150px;">Количество</th>
+								<th style="width: 149px;border-right:none;">Сумма</th>
+							</tr>
+							<tr>
+								<td style="width: 25px;">
+									<span class="glyphicon glyphicon-remove-circle"></span>
+								</td>
+								<td style="text-align: center;">
+									<img src="img/img-1.jpg" alt="">
+								</td>
+								<td style="padding-right: 6px; text-align: left;height: 32px">
+									<a href="#">Beats Solo 3 Wireless</a>
+								</td>
+								<td style="text-align: center;">
+									<span class="glyphicon glyphicon-minus"></span>
+										<input type="text" value="1">
+									<span class="glyphicon glyphicon-plus"></span>
+								</td>
+								<td style="text-align: center; font-weight: 600">3888 грн.</td>
+							</tr>
+							<tr>
+								<td style="width: 25px;">
+									<span class="glyphicon glyphicon-remove-circle"></span>
+								</td>
+								<td style="text-align: center;">
+									<img src="img/img-1.jpg" alt="">
+								</td>
+								<td style="padding-right: 6px; text-align: left;height: 32px">
+									<a href="#">Beats Solo 3 Wireless asasasasaasasaasasa</a>
+								</td>
+								<td style="text-align: center;">
+									<span class="glyphicon glyphicon-minus"></span>
+										<input type="text" value="1">
+									<span class="glyphicon glyphicon-plus"></span>
+								</td>
+								<td style="text-align: center; font-weight: 600">3888 грн.</td>
+							</tr>
+							<tr>
+							<td colspan="5" style="font-weight: 600; font-size: 18px">
+								Итоги по заказу
+								<span>3888 грн.</span>
+							</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -277,8 +334,19 @@
 <div class="footer">
 	<div class="container">
 		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tabs">
+				<h2>Hot Products</h2>
+				<ul class="nav nav-tabs">
+				  <li class="active"><a href="#">Mobile phones</a></li>
+				  <li><a href="#">Office</a></li>
+				  <li><a href="#">Laptops</a></li>
+				  <li><a href="#">Games/movies/music</a></li>
+				  <li><a href="#">Office</a></li>
+				  <li><a href="#">Tvs</a></li>
+				</ul>
+			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 owl-carousel owl-theme">
-				    <div class="item product">
+				    <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Home Projector System</a></h5>
 						</div>
@@ -288,7 +356,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
 						</div>
@@ -298,7 +366,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 				     	<div class="prod-footer">
 							<h5><a href="#">BluRay Home System</a></h5>
 						</div>
@@ -308,7 +376,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				      <div class="item product">
+				      <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Home Projector System</a></h5>
 						</div>
@@ -318,7 +386,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
 						</div>
@@ -328,7 +396,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 				     	<div class="prod-footer">
 							<h5><a href="#">BluRay Home System</a></h5>
 						</div>
@@ -338,7 +406,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				      <div class="item product">
+				      <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Home Projector System</a></h5>
 						</div>
@@ -348,7 +416,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 						<div class="prod-footer">
 							<h5><a href="#">Samsung 2243BWX Monitor</a></h5>
 						</div>
@@ -358,7 +426,7 @@
 						</div>
 						<button class="btn btn-info"><a href="#">More from category</a></button>
 				    </div>
-				     <div class="item product">
+				     <div class="item">
 				     	<div class="prod-footer">
 							<h5><a href="#">BluRay Home System</a></h5>
 						</div>

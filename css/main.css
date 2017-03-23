@@ -1,3 +1,51 @@
+.btn-info {
+  border: 1px solid #0e80e5;
+  max-width: 100%;
+  background-image: linear-gradient(#65d4f6, #27b1ee); }
+  .btn-info:hover {
+    background-image: linear-gradient(#65acf6, #27b7ee); }
+
+.main .product-wrap .product, .footer .owl-carousel .item {
+  height: 280px;
+  padding: 20px;
+  border-right: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc; }
+  .main .product-wrap .product:hover, .footer .owl-carousel .item:hover {
+    box-shadow: 2px 4px 6px rgba(217, 223, 231, 0.6); }
+  .main .product-wrap .product:nth-last-child(4n+2), .footer .owl-carousel .item:nth-last-child(4n+2) {
+    border-right: none; }
+  .main .product-wrap .product button, .footer .owl-carousel .item button {
+    padding: 2px 7px;
+    margin-top: 10px;
+    width: 100%; }
+    .main .product-wrap .product button a, .footer .owl-carousel .item button a {
+      color: #fff;
+      font-size: 12px; }
+      .main .product-wrap .product button a:hover, .footer .owl-carousel .item button a:hover {
+        text-decoration: none; }
+  .main .product-wrap .product .prod-img, .footer .owl-carousel .item .prod-img {
+    height: 125px;
+    text-align: center; }
+    .main .product-wrap .product .prod-img img, .footer .owl-carousel .item .prod-img img {
+      display: inline-block;
+      height: auto;
+      max-height: 125px;
+      max-width: 100%; }
+  .main .product-wrap .product .prod-footer, .footer .owl-carousel .item .prod-footer {
+    height: 50px; }
+    .main .product-wrap .product .prod-footer h5, .footer .owl-carousel .item .prod-footer h5 {
+      font-size: 14px;
+      margin: 0; }
+      .main .product-wrap .product .prod-footer h5 a, .footer .owl-carousel .item .prod-footer h5 a {
+        color: #111017; }
+        .main .product-wrap .product .prod-footer h5 a:hover, .footer .owl-carousel .item .prod-footer h5 a:hover {
+          font-weight: 500;
+          color: #2db6e9;
+          text-decoration: none; }
+  .main .product-wrap .product .price, .footer .owl-carousel .item .price {
+    color: #2db6e9;
+    font-weight: 600; }
+
 .header-top {
   padding: 15px 0 20px 0; }
 
@@ -105,22 +153,26 @@
     padding: 5px 0;
     opacity: 0.99; }
 
-.main .mobile {
+.main .shares {
+  text-align: center;
   position: relative;
   background: linear-gradient(#5d6b6e, #303739); }
-  .main .mobile a:hover {
-    text-decoration: none; }
-  .main .mobile a p {
-    padding: 20px 30px;
+  .main .shares h2 {
     color: #fff;
-    font-size: 18px;
-    max-width: 160px; }
-    .main .mobile a p span {
-      font-weight: 700; }
-  .main .mobile a img {
-    position: absolute;
-    top: -5px;
-    right: 10px; }
+    padding: 10px; }
+  .main .shares p {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px; }
+    .main .shares p span {
+      font-weight: 700;
+      display: block; }
+  .main .shares a:hover {
+    text-decoration: none; }
+  .main .shares a img {
+    max-width: 100%;
+    padding: 20px;
+    max-height: 300px; }
 
 .main .product-wrap {
   margin-right: 0; }
@@ -136,52 +188,6 @@
     display: flex;
     justify-content: center;
     margin-top: 20px; }
-  .main .product-wrap .btn-info {
-    max-width: 100%;
-    background-image: linear-gradient(#65d4f6, #27b1ee);
-    border: none; }
-    .main .product-wrap .btn-info:hover {
-      background-image: linear-gradient(#65acf6, #27b7ee); }
-  .main .product-wrap .product {
-    height: 280px;
-    padding: 20px;
-    border-right: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc; }
-    .main .product-wrap .product:hover {
-      box-shadow: 2px 4px 6px rgba(217, 223, 231, 0.6); }
-    .main .product-wrap .product:nth-last-child(4n+2) {
-      border-right: none; }
-    .main .product-wrap .product button {
-      padding: 2px 7px;
-      margin-top: 10px;
-      width: 100%; }
-      .main .product-wrap .product button a {
-        color: #fff;
-        font-size: 12px; }
-        .main .product-wrap .product button a:hover {
-          text-decoration: none; }
-    .main .product-wrap .product .prod-img {
-      height: 125px;
-      text-align: center; }
-      .main .product-wrap .product .prod-img img {
-        display: inline-block;
-        height: auto;
-        max-height: 125px;
-        max-width: 100%; }
-    .main .product-wrap .product .prod-footer {
-      height: 50px; }
-      .main .product-wrap .product .prod-footer h5 {
-        font-size: 14px;
-        margin: 0; }
-        .main .product-wrap .product .prod-footer h5 a {
-          color: #111017; }
-          .main .product-wrap .product .prod-footer h5 a:hover {
-            font-weight: 500;
-            color: #2db6e9;
-            text-decoration: none; }
-    .main .product-wrap .product .price {
-      color: #2db6e9;
-      font-weight: 600; }
 
 .main .panel-menu-wrap {
   z-index: 100;
@@ -290,43 +296,85 @@
       text-decoration: none;
       list-style: none; }
 
-.footer .product {
-  height: 280px;
-  padding: 20px;
-  border-right: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc; }
-  .footer .product:hover {
-    box-shadow: 2px 4px 6px rgba(217, 223, 231, 0.6); }
-  .footer .product:nth-last-child(4n+2) {
-    border-right: none; }
-  .footer .product button {
-    padding: 2px 7px;
-    margin-top: 10px;
-    width: 100%; }
-    .footer .product button a {
-      color: #fff;
-      font-size: 12px; }
-      .footer .product button a:hover {
-        text-decoration: none; }
-  .footer .product .prod-img {
-    height: 125px;
-    text-align: center; }
-    .footer .product .prod-img img {
-      display: inline-block;
-      height: auto;
-      max-height: 125px;
-      max-width: 100%; }
-  .footer .product .prod-footer {
+.main .cart-list-table tr {
+  border: 1px solid #f0f0f0;
+  height: 100px; }
+  .main .cart-list-table tr:first-child {
+    height: 40px; }
+  .main .cart-list-table tr:last-child {
     height: 50px; }
-    .footer .product .prod-footer h5 {
-      font-size: 14px;
-      margin: 0; }
-      .footer .product .prod-footer h5 a {
-        color: #111017; }
-        .footer .product .prod-footer h5 a:hover {
-          font-weight: 500;
-          color: #2db6e9;
-          text-decoration: none; }
-  .footer .product .price {
-    color: #2db6e9;
+    .main .cart-list-table tr:last-child td {
+      text-align: left;
+      padding: 0 35px; }
+      .main .cart-list-table tr:last-child td span {
+        float: right; }
+  .main .cart-list-table tr th {
+    background: #f5f5f5;
+    text-align: center;
+    border-right: 1px solid #dadada;
+    height: 30px;
+    vertical-align: middle;
     font-weight: 600; }
+  .main .cart-list-table tr td {
+    text-align: right;
+    vertical-align: middle;
+    padding: 0 10px; }
+    .main .cart-list-table tr td a {
+      color: #111017; }
+    .main .cart-list-table tr td img {
+      height: auto;
+      width: 70px; }
+    .main .cart-list-table tr td span {
+      opacity: 0.6; }
+    .main .cart-list-table tr td input {
+      width: 30px;
+      text-align: center; }
+
+.footer .tabs {
+  margin-bottom: 10px; }
+  .footer .tabs .nav li {
+    width: 190px; }
+    .footer .tabs .nav li .active a {
+      font-weight: 600;
+      font-size: 12px;
+      text-align: center; }
+    .footer .tabs .nav li a {
+      border: 1px solid #dddddd;
+      color: #111017;
+      text-align: center;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      margin-right: 5px;
+      background: linear-gradient(#fff, #d6d6d6); }
+      .footer .tabs .nav li a:focus {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background: #fff;
+        font-weight: 700;
+        border-bottom: none; }
+  .footer .tabs .nav .nav-tabs li .active {
+    border-bottom: transparent; }
+
+.footer .owl-theme .owl-nav .owl-prev {
+  color: transparent;
+  position: absolute;
+  left: -30px;
+  top: 90px;
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: url("../img/chevron-left.png") no-repeat; }
+  .footer .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.6; }
+
+.footer .owl-theme .owl-nav .owl-next {
+  color: transparent;
+  position: absolute;
+  right: -30px;
+  top: 90px;
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: url("../img/chevron-right.png") no-repeat; }
+  .footer .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.6; }

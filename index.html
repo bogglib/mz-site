@@ -220,7 +220,7 @@
 						<button class="btn btn-info pull-right">View More Products</button>
 					</div> 
 				</div>
-				<div class="row product-item" style="display:none">
+				<div class="row product-item">
 					<div class="product-img col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="main-img">
 							<img src="img/prod-img-1.jpg" alt="prod-img-1.jpg">
@@ -233,7 +233,7 @@
 					</div>
 					<div class="description-item col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<h3>HTC Google Nexus One Black</h3>
-						<div class="button"><button class="btn btn-info pull-right">Add to cart</button>
+						<div class="button"><button class="btn btn-info btn-confirm pull-right">Add to cart</button>
 						</div>
 						<div class="product-price">
 						<span class="price">$599.99</span>
@@ -273,7 +273,7 @@
 					</div>
 				</div>
 
-				<div class="cart-list-table" style="">
+				<div class="cart-list-table" style="display:none">
 					<table >
 						<tbody>
 							<tr>
@@ -293,7 +293,7 @@
 								</td>
 								<td style="text-align: center;">
 									<span class="glyphicon glyphicon-minus"></span>
-										<input type="text" value="1">
+										<input class="amount" type="text" value="1">
 									<span class="glyphicon glyphicon-plus"></span>
 								</td>
 								<td style="text-align: center; font-weight: 600">3888 грн.</td>
@@ -310,7 +310,7 @@
 								</td>
 								<td style="text-align: center;">
 									<span class="glyphicon glyphicon-minus"></span>
-										<input type="text" value="1">
+										<input class="amount" type="text" value="1">
 									<span class="glyphicon glyphicon-plus"></span>
 								</td>
 								<td style="text-align: center; font-weight: 600">3888 грн.</td>
@@ -448,5 +448,11 @@
     <script src="js/show-menu.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 	<script src="js/js.js"></script>
+	<script src="js/input-count.js"></script>
+
+	<script src="js/add-cart.js"> </script>
+
+
+
   </body>
 </html>

@@ -1,0 +1,480 @@
+body,ul
+	padding: 0
+	margin: 0
+	list-style: none
+#block-body
+	width: 1035px
+	height: auto
+	margin: 0 auto
+#block-header
+	width: 1035px
+	height: 220px
+#block-right	
+	width: 220px
+	height: auto
+	float: right
+#block-content
+	width: 800px
+	height: auto
+#header-top-block
+	width: 1035px
+	height: 35px
+	border-bottom: 1px solid rgba(34, 34, 34, 0.12)
+	#header-top-menu
+	span
+		color: #ef662b
+		border-bottom: 1px dashed #ef662b
+	li
+		font: 15px sans-serif
+		float: left
+		margin-top: 10px
+		list-style: none
+		padding: 0 10px 
+		border-right: 1px solid #e3e3e3
+		a 
+			color: #00678c
+			text-decoration: none
+			&:hover
+				color: #ef662b
+				border-bottom: 1px dashed #ef662b
+	#reg-auth-title
+		margin: 8px 10px 0 0 
+		float: right
+		a.top-auth
+			font: bold 13px sans-serif 
+			text-decoration: none
+			color: black
+			background: linear-gradient(rgba(255, 255, 255, 0.16), #dfdfdf)
+			padding: 4px 8px 
+			border: 1px solid #e9eaea
+			border-radius: 5px
+			&:hover
+				background: linear-gradient(rgba(255, 255, 255, 0.16), #e6dcdf)
+				cursor: pointer
+		a.top-enter
+			font: 14px
+			text-decoration: none
+			color: #ef662b
+			margin-left: 10px
+			border-bottom: 1px dashed #ef662b
+			&:hover
+				border-bottom: none
+a
+	#img-logo
+		margin-top: 12px
+		position: absolute
+#personal-info
+	text-align: right
+	width: 300px
+	margin-left: 730px
+	margin-top: 20px
+	p 
+		font: 15px sans-serif
+		margin: 2px 45px 0 0
+	h3 
+		font: bold 20px verdana
+		margin: 0 45px 10px 0
+	img 
+		margin-top: -45px
+		float: right
+#block-search
+	width: 345px
+	height: auto
+	float: right
+	margin-top: 15px
+	#input-search
+		width: 250px
+		height: 25px
+		border: 1px solid black
+		font: 14px sans-serif
+		border: 1px solid rgba(34, 34, 34, 0.12)
+		padding-left: 30px
+	span 
+		width: 13px
+		height: 13px
+		background:  url("../img/icon-search.png") no-repeat
+		position: absolute
+		margin: 10px 0 0 6px
+
+	#button-search
+		width: 58px
+		height: 30px
+		border: 1px solid rgba(34, 34, 34, 0.12)
+		background: linear-gradient(rgba(255, 255, 255, 0.16), #dfdfdf)
+		margin-left: -4px
+		cursor: pointer
+		&:hover
+			background: linear-gradient(#dfdfdf, rgba(255, 255, 255, 0.16))
+#top-menu
+	width: 1033px
+	height: 40px
+	border-bottom: 1px solid #ddd
+	margin-top: 5px
+	li 
+		float: left
+		margin-left: 10px
+		margin-top: 8px
+		a 
+			font: 15px sans-serif
+			color: #34659d
+			margin-left: 4px
+			margin-right: 3px
+			text-decoration: none
+			border-bottom: 1px dashed #34659d
+			&:hover
+				color: #ef662b
+				border-bottom: 1px dashed #ef662b
+		img
+			float: left
+			margin-top: -7px
+	p#block-basket
+		text-align: right
+		margin-top: 0
+		padding-top: 7px
+		margin-right: -3px
+		a 	
+			font: bold 15px sans-serif
+			text-decoration: none
+			margin-left: 40px
+			border-bottom: 1px dashed #34659d
+			color: black
+			&:hover
+				border-bottom: none
+		img
+			position: absolute
+			margin-top: -5px
+#block-category
+	width: 220px
+	height: auto
+	.header-title
+		width: 210px
+		font: 14px sans-serif
+		margin-top: 0
+		margin-bottom: 5px
+		padding: 7px 0 7px 10px
+		background: linear-gradient(#43d731, rgb(80, 145, 43))
+		color: #fff
+		border-radius: 5px 5px 0 0
+	>ul>li 
+		border-bottom: 1px solid rgba(34, 34, 34, 0.12)
+		a 
+			font: 15px sans-serif
+			padding: 6px 0 6px 30px
+			display: block
+			cursor: pointer
+			&.active
+				background-color: #eee
+			&:hover
+				background-color: #eee
+			#mobile-img
+				position: absolute
+				margin-left: -26px
+				margin-top: -3px
+			#book-img
+				position: absolute
+				margin-left: -30px
+				margin-top: -2px
+			#table-img
+				position: absolute
+				margin-left: -30px
+		ul.category-section
+			margin-bottom: 5px
+			margin-left: 30px
+			display: none
+			li 
+				margin-top: 3px
+				a 
+					font: 15px sans-serif
+					text-decoration: none
+					color: black
+					padding: 2px 0
+					&:hover
+						text-decoration: underline
+#block-parameter
+	width: 220px
+	margin-top: 10px
+	height: auto
+	.header-title
+		width: 210px
+		font: 14px sans-serif
+		margin-top: 0
+		margin-bottom: 5px
+		padding: 7px 0 7px 10px
+		background: linear-gradient(#43d731, rgb(80, 145, 43))
+		color: #fff
+		border-radius: 5px 5px 0 0
+	.title-filter
+		font: bold 14px sans-serif
+		margin-top: 0
+		margin-bottom: 10px
+	#block-input-price
+		li 
+			float: left
+			margin-left: 10px
+		input
+			width: 45px
+			height: 20px
+			font: 14px sans-serif
+			border: 1px solid #dcdcdc
+			padding-left: 3px
+		p
+			font: 14px sans-serif
+			float: left
+			margin-top: 0
+			padding-top: 2px
+	#blocktrackbar
+		width: 220px
+		padding-top: 5px
+		height: 35px
+		margin-top: 20px
+		clear: both
+	.checkbox-brand
+		li
+			font: 14px sans-serif
+			margin-left: 5px
+			margin-top: 3px
+		input 
+			margin-right: 8px
+			margin-top: 1px
+	#button-param-search
+		display: block
+		margin: 0 auto
+		width: 81px
+		height: 27px
+		background: linear-gradient(rgba(255, 255, 255, 0.16), #dfdfdf)
+		margin-top: 20px
+		border: none
+		cursor: pointer
+		&:hover
+			background: linear-gradient(#dfdfdf, rgba(255, 255, 255, 0.16))
+		&:active
+			background: linear-gradient(#dfdfdf, rgba(255, 255, 255, 0.16))
+#block-news
+	width: 220px
+	height: auto
+	margin: 15px 0
+	img
+		display: block
+		margin: 5px auto
+		cursor: pointer
+	#newsticker
+		width: 220px
+		border-top: 1px solid #ddd
+		p 
+			font: 14px sans-serif
+			margin: 0 5px
+		li 
+			border-bottom: 1px solid #ddd 
+			padding: 15px 0
+			a 
+				color: #ef662b
+				font: bold 14px sans-serif
+				text-decoration: none
+				&:hover
+					text-decoration: underline
+		span 
+			font: 13px sans-serif
+			padding-bottom: 5px
+			color: #636363
+			display: block
+#block-footer
+	border-top: 1px solid #ddd
+	width: 1035
+	height: 160px
+	margin-top: 10px
+	clear: both
+	#footer-phone
+		width: 270px
+		float: left
+		margin-left: 10px
+		margin-top: 10px
+		h4 
+			font: bold 16px sans-serif
+			margin: 0
+		h3 
+			font: bold 23px sans-serif
+			margin: 5px 0
+		p 	
+			font: 15px sans-serif
+			margin: 5px 0
+	.footer-list
+		width: 200px
+		float: left
+		margin-left: 10px
+		li 
+			margin-top: 5px
+		p 
+			font: bold 14px sans-serif
+			margin-bottom: 10px
+			color: #641b74
+		a 	
+			font:  14px sans-serif
+			text-decoration: none
+			color: #7b7b7b
+			&:hover
+				text-decoration: underline
+#block-sorting
+	height: 60px
+	border-bottom: 1px solid #eee
+	#nav-brend-crabs
+		margin-top: 5px
+		a 
+			font: 13px sans-serif
+			color: #4268b1
+			&:hover
+				color: #e20000
+		span
+			color: #7f868e
+			font: 14px sans-serif
+	#option-list
+		margin-left: -10px
+		>li
+			float: left
+			margin-left: 10px
+			font: 14px sans-serif
+			#select-sort
+				color: #748999
+				cursor: pointer
+				text-decoration: underline				
+			#sorting-list
+				border: 1px solid #a3c0d2
+				position: absolute
+				width: 200px
+				height: 108px
+				background-color: #fff
+				padding-top: 5px
+				display: none
+				li 
+					margin-top: 3px
+					margin-left: 10px
+					a 
+						font: 15px 
+						text-decoration: none
+						color: black
+						&:hover
+							text-decoration: underline
+		img
+			margin-top: -4px
+			cursor: pointer
+#block-tovar-grid
+	margin-top: 15px
+	>li 
+		width: 380px
+		float: left
+		height: 230px
+		margin-left: 10px
+		.style-title-grid
+			height: 40px
+			margin-top: 0
+			margin-bottom: 0
+			a 	
+				font: bold 15px sans-serif
+				color: #0a83ab
+				text-decoration: underline
+				&:hover
+					color: #e26666
+		.block-images-grid
+			width: auto
+			height: 230px
+			float: left
+			margin-right: 15px
+		.reviewe-and-counts-grid
+			height: 20px
+			margin-top: 5px
+			>li 
+				float: left
+				margin-left: 10px
+				margin-top: 3px
+				p 
+					margin-left: 25px
+					font: 13px sans-serif
+					margin-top: -1px
+					margin-bottom: 0
+				img 
+					position: absolute
+		.style-price-grid
+			margin-top: 7px
+			font: 16px sans-serif
+			strong
+				font: 23px sans-serif
+				color: #6b6d73
+
+		a.add-cart-style-grid
+			width: 48px
+			height: 25px
+			display: block
+			cursor: pointer
+			float: left
+			margin-top: 8px
+			margin-right: 10px
+			background: url("../img/add-cart-norm.png") 
+			&:hover
+				background: url("../img/add-cart-hover.png") 
+			&:active
+				background: url("../img/add-cart-active.png") 
+		.mini-features
+			font: 14px/18px sans-serif
+			margin-top: 10px
+#block-tovar-list
+	display: none
+	>li 
+		height: auto
+		margin-top: 15px
+		padding-bottom: 15px
+		border-bottom: 1px solid #e6e6e6
+		min-height: 160px
+		float: left
+		.style-title-list
+			height: 20px
+			margin-top: 0
+			margin-bottom: 0
+			a 	
+				font: bold 15px sans-serif
+				color: #0a83ab
+				text-decoration: underline
+				&:hover
+					color: #e26666
+		.block-images-list
+			float: left
+			min-height: 160px
+			height: auto
+			margin-right: 15px
+		.reviewe-and-counts-list
+			position: absolute
+			margin-left: 670px
+			>li 
+				float: left
+				margin-left: 10px
+				margin-top: 3px
+				p 
+					margin-left: 25px
+					font: 13px sans-serif
+					margin-top: -1px
+				img 
+					position: absolute
+		.style-price-list
+			margin-top: 10px
+			font: 15px sans-serif
+			strong
+				font: 20px sans-serif
+				color: #6b6d73
+
+		a.add-cart-style-list
+			width: 48px
+			height: 25px
+			display: block
+			cursor: pointer
+			float: left
+			margin-top: 8px
+			margin-right: 10px
+			background: url("../img/add-cart-norm.png") 
+			&:hover
+				background: url("../img/add-cart-hover.png") 
+			&:active
+				background: url("../img/add-cart-active.png") 
+		.mini-features-list
+			font: 15px sans-serif
+			margin: 0
+
+
+
